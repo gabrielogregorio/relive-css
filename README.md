@@ -1,14 +1,7 @@
-# relieveCSS
+# Relieve CSS3
+Um nanoframework para montar o CSS global básico em cima das tags HTML.
 
-microframework para montar o CSS global básico em cima das tags HTML.
-
-O objeto é somente simplificar o desenvolvimento backend com um frontend minimamente descente, sem a preocupação com saber classes de frameworks como bootstrap, bluma, etc.
-
-
-# Como Usar o framework  
-Você precisa ter em mente que esse framework não é escalável e portanto você só poderá usar para criar projetos simples como um CRUD focado no backend.
-
-Você também precisará de usar os componentes de acordo com a documentação, da exata forma que a documentação sugere, caso você não queira mexer no CSS. Se você quiser personalizar sinta-se a vontade, mas o framework não está sendo desenvolvido para ser escalável.
+O objeto é somente simplificar o desenvolvimento de CRUD backend com um frontend minimamente descente não facilmente escalável, porém, sem a preocupação com saber classes de frameworks como bootstrap, bluma, etc.
 
 Ok, entendi, então como usar?
 Adicione o arquivo global.css no seu projeto e use os componentes abaixo:
@@ -26,6 +19,7 @@ Adicione o arquivo global.css no seu projeto e use os componentes abaixo:
   <a href="#">Users</a>
 </nav>
 ```
+![Footer do relieve](images/nav.png)
 
 ## Criando titulo
 ```html
@@ -40,6 +34,7 @@ Adicione o arquivo global.css no seu projeto e use os componentes abaixo:
   </div>
 </section>
 ```
+![Footer do relieve](images/title.png)
 
 ## Criando um formulário
 ```html
@@ -64,7 +59,7 @@ Adicione o arquivo global.css no seu projeto e use os componentes abaixo:
   </div>
 </section>
 ```
-
+![Footer do relieve](images/form.png)
 
 ## Trabalhando com listas
 ```html
@@ -84,12 +79,13 @@ Adicione o arquivo global.css no seu projeto e use os componentes abaixo:
   </div>
 </section>
 ```
+![Footer do relieve](images/lists_links.png)
+
 
 ## Trabalhando com tabelas
 ```html
 <section>
   <div class="container-large">
-
     <h1>Painel administrador</h1>
     <table>
       <tr>
@@ -131,6 +127,8 @@ Adicione o arquivo global.css no seu projeto e use os componentes abaixo:
   </div>
 </section>
 ```
+![Footer do relieve](images/table.png)
+
 
 ## Trabalhando com um footer
 ```html
@@ -138,5 +136,6 @@ Adicione o arquivo global.css no seu projeto e use os componentes abaixo:
   <p>Copyrigth@yourName</p>
 </footer>
 ```
+![Footer do relieve](images/footer.png)
 
 Projeto em desenvolvimento
