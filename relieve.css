@@ -2,6 +2,7 @@
   --primary: #009980;
   --inverse: #fff;
   --box-shadow: 0 3px 3px 3px #45454517;
+  --box-shadow-minimal: 0 0px 1px 1px #45454517;
   --red: #e63241;
   --orange: #f3711a;
   --blue: #3295e6;
@@ -24,9 +25,15 @@ body {
   background-color: var(--bg-primary);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   padding: 10px 0;
   text-align: center;
+  width: 100%;
+}
+
+h3, h4, h5, h6 {
+  padding: 10px 0;
+  text-align: left;
   width: 100%;
 }
 
@@ -131,6 +138,11 @@ nav a.active::after{
   height: 2px;
   background-color: var(--inverse);
 }
+nav img {
+  height: 30px;
+  width: auto;
+  object-fit: cover;
+}
 
 /* Table design */
 
@@ -138,6 +150,7 @@ table {
   border-collapse: collapse;
   width: 100%;
   overflow-x: auto;
+
 }
 
 table td, table th {
@@ -156,11 +169,8 @@ table th {
 }
 
 tr > td {
-  white-space: nowrap;
-}
-
-td > button {
-  display: inline-block;
+  word-wrap: break-word;
+  white-space: wrap;
 }
 
 td img {
@@ -170,7 +180,13 @@ td img {
   object-fit: cover;
 }
 
+
+td > button {
+  display: inline-block;  
+}
+
 td a {
+  display: inline-block;
   text-decoration: none;
   padding: 8px;
   background: var(--primary);
@@ -179,6 +195,22 @@ td a {
   border-radius: 5px;
   margin: 5px;
   cursor: pointer;
+}
+
+
+button a {
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+strong {
+  font-weight: 700;
 }
 
 

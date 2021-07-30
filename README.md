@@ -14,6 +14,7 @@ Adicione o arquivo global.css no seu projeto e use os componentes abaixo:
 ## Criando um menu
 ```html
 <nav>
+  <a href="#"><img src="images/logo.png"></a>
   <a class="active" href="#">Home</a>
   <a href="#">Itens</a>
   <a href="#">Users</a>
@@ -26,11 +27,11 @@ Adicione o arquivo global.css no seu projeto e use os componentes abaixo:
 <section>
   <div class="container">
     <h1>Titulo do Website</h1>
-    <h2>Sub-titulo 1</h2>
-    <h3>Sub-titulo 2</h3>
-    <h4>Sub-titulo 3</h4>
-    <h5>Sub-titulo 4</h5>
-    <h6>Sub-titulo 4</h6>
+    <h2>Subtitulo 1</h2>
+    <h3>Subtitulo 2</h3>
+    <h4>Subtitulo 3</h4>
+    <h5>Subtitulo 4</h5>
+    <h6>Subtitulo 4</h6>
   </div>
 </section>
 ```
@@ -63,71 +64,106 @@ Adicione o arquivo global.css no seu projeto e use os componentes abaixo:
 
 ## Trabalhando com listas
 ```html
-<section>
-  <div class="container">
-    <a href="#">Link Example</a>
-    <a href="#">Link Example</a>
-    <a href="#">Link Example</a>
-    <br>
-    <br>
-    <ul>
-      <li>Item List example</li>
-      <li>Item List example</li>
-      <li>Item List example</li>
-      <li>Item List example</li>
-    </ul>  
-  </div>
-</section>
+  <section>
+    <div class="container">
+      <a href="#">Link Example</a>
+      <a href="#">Link Example</a>
+      <a href="#">Link Example</a><br>
+
+      <h3>Lista de itens</h1>
+      <ul>
+        <li>Item List example</li>
+        <li>Item List example</li>
+        <li>Item List example</li>
+        <li>Item List example</li>
+      </ul><br>
+
+      <h3>Respostas</h1>
+      <p><strong>Resposta: </strong> Isso é uma resposta qualquer<br></p>
+      <button class="red"><a href="#">Botão perguntar com link</a></button>
+    </div>
+  </section>
 ```
 ![Footer do relieve](images/lists_links.png)
 
 
-## Trabalhando com tabelas
+## Trabalhando com tabelas largas
 ```html
-<section>
-  <div class="container-large">
-    <h1>Painel administrador</h1>
-    <table>
-      <tr>
-        <th>id</th>
-        <th>foto</th>
-        <th>name</th>
-        <th>email</th>
-        <th>Cargo</th>
-        <th>Ações</th>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td><img src="perfil.webp"></td>
-        <td>Amy Winehouse</td>
-        <td>amy@winehouse.com</td>
-        <td>admin</td>
-        <td>
-          <button class="blue">View</button>
-          <button class="green">View 2</button>
-          <a class="orange">Edit</a>
-          <a class="red" >Delete</a>
-        </td>
-      </tr>
+  <section>
+    <div class="container-large">
 
-      <tr>
-        <td>2</td>
-        <td><img src="perfil.webp"></td>
-        <td>Lisa</td>
-        <td>lisa@google.com</td>
-        <td>user</td>
-        <td>
-          <button class="blue">View</button>
-          <button class="green">View 2</button>
-          <button class="orange">Edit</button>
-          <button class="red" >Delete</button>
-        </td>
-      </tr>
-    </table>  
-  </div>
-</section>
+      <h1>Painel administrador</h1>
+      <table>
+        <tr>
+          <th>id</th>
+          <th>foto</th>
+          <th>name</th>
+          <th>email</th>
+          <th>Cargo</th>
+          <th>Ações</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td><img src="perfil.webp"></td>
+          <td>Amy Winehouse</td>
+          <td>amy@winehouse.com</td>
+          <td>admin</td>
+          <td>
+            <button class="blue">View</button>
+            <button class="green">View 2</button>
+            <a class="orange">Edit</a>
+            <a class="red" >Delete</a>
+          </td>
+        </tr>
+  
+        <tr>
+          <td>2</td>
+          <td><img src="perfil.webp"></td>
+          <td>Lisa</td>
+          <td>lisa@google.com</td>
+          <td>user</td>
+          <td>
+            <button class="blue">View</button>
+            <button class="green">View 2</button>
+            <button class="orange">Edit</button>
+            <button class="red" >Delete</button>
+          </td>
+        </tr>
+      </table>  
+    </div>
+  </section>
 ```
 ![Footer do relieve](images/table.png)
+
+## Trabalhando com tabelas curtas
+```html
+ <section>
+    <div class="container">
+
+      <h1>Painel administrador</h1>
+      <table>
+        <tr>
+          <th>id</th>
+          <th>name</th>
+          <th>Ações</th>
+        </tr>
+  
+        <tr>
+          <td>2</td>
+          <td>lisa@google.com</td>
+          <td>
+            <button class="blue">View</button>
+            <a class="green">View 2</button>
+          </td>
+        </tr>
+      </table>  
+    </div>
+  </section>
+```
+![Footer do relieve](images/table2.png)
+
+
+
 
 
 ## Trabalhando com um footer
