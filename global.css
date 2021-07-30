@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 400;
+  color: #454545;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+
+div.container {
+  max-width: 500px;
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+
+}
+
+h1 { font-size: 26px; }
+h2 { font-size: 24px; }
+h3 { font-size: 22px; }
+h4 { font-size: 20px; }
+h5 { font-size: 18px; }
+h6 { font-size: 16px; }
+
+section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+input, textarea {
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  width: 100%;
+  outline: none;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid #9c9c9c;
+}
+
+textarea {
+  resize: vertical;
+}
+
+label, p {
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+button {
+  padding: 10px;
+  background: #009980;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+a {
+  color: #009980;
+  padding: 5px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+nav a{
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav a::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: transparent ;
+}
+
+nav a.active::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #009980;
+}
+
