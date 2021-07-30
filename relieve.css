@@ -6,7 +6,7 @@
   --orange: #f3711a;
   --blue: #3295e6;
   --green: #0ccf2d;
-
+  --bg-primary: #eee;
 }
 
 * {
@@ -21,7 +21,7 @@
 
 body {
   min-height: 100vh;
-  background-color: #eee;
+  background-color: var(--bg-primary);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -170,7 +170,8 @@ td img {
   object-fit: cover;
 }
 
-td  a {
+td a {
+  text-decoration: none;
   padding: 8px;
   background: var(--primary);
   color: var(--inverse);
