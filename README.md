@@ -4,7 +4,7 @@ Um nanoframework para montar o CSS global básico em cima das tags HTML.
 O objeto é somente simplificar o desenvolvimento de CRUD backend com um frontend minimamente descente não facilmente escalável, porém, sem a preocupação com saber classes de frameworks como bootstrap, bluma, etc.
 
 Ok, entendi, então como usar?
-Adicione o arquivo relieve.css no seu projeto e use os componentes abaixo:
+Adicione o arquivo global.css no seu projeto e use os componentes abaixo:
 
 ## Adicionando o framework ao seu projeto
 ```html
