@@ -41,12 +41,12 @@ Adicione o arquivo global.css no seu projeto e use os componentes abaixo:
 ```html
 <section>
   <div class="container">
-    <h1>Titulo do Website</h1>
-    <h2>Subtitulo 1</h2>
-    <h3>Subtitulo 2</h3>
-    <h4>Subtitulo 3</h4>
-    <h5>Subtitulo 4</h5>
-    <h6>Subtitulo 4</h6>
+    <h1>Título do Website</h1>
+    <h2>Subtítulo 1</h2>
+    <h3>Subtítulo 2</h3>
+    <h4>Subtítulo 3</h4>
+    <h5>Subtítulo 4</h5>
+    <h6>Subtítulo 4</h6>
   </div>
 </section>
 ```
@@ -156,13 +156,13 @@ Adicione o arquivo global.css no seu projeto e use os componentes abaixo:
 ```html
   <section>
     <div class="container">
-      <h3>Meu video</h3>
+      <h3>Meu vídeo</h3>
       <video controls>
         <source src="videos/video.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
 
-      <p>Este vídeo foi baixado no pixabay, para servir como exemplo para esse demonstrativo. Segue o link <a href="https://pixabay.com/videos/rainy-rain-night-summer-colorful-5278/">https://pixabay.com/videos/rainy-rain-night-summer-colorful-5278/</a></p>
+      <p>Este vídeo foi baixado no Pixabay, para servir como exemplo para esse demonstrativo. Segue o link <a href="https://pixabay.com/videos/rainy-rain-night-summer-colorful-5278/">https://pixabay.com/videos/rainy-rain-night-summer-colorful-5278/</a></p>
     </div>
   </section>
 
@@ -178,7 +178,7 @@ Adicione o arquivo global.css no seu projeto e use os componentes abaixo:
       <h3>Uma imagem qualquer</h3>
       <figure>
         <img src="images/image.jpg" alt="Pescador ao lado de torres de transmissão de energia">
-        <figcaption>Fig.1 - Pescador, Rio, Estação de energia.</figcaption>
+        <figcaption>Fig.1 - Pescador, Rio, Estação de energia. </figcaption>
       </figure>  
     </div>
   </section>
@@ -335,6 +335,6 @@ Adicione o arquivo global.css no seu projeto e use os componentes abaixo:
 
 ```html
 <footer>
-<p>Copyrigth@yourName</p>
+<p>Copyright@yourName</p>
 </footer>
 ```
