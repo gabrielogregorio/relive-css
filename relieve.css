@@ -1,3 +1,4 @@
+/* Global */
 :root {
   --primary: #009980;
   --inverse: #fff;
@@ -25,18 +26,6 @@ body {
   background-color: var(--bg-primary);
 }
 
-h1, h2 {
-  padding: 10px 0;
-  text-align: center;
-  width: 100%;
-}
-
-h3, h4, h5, h6 {
-  padding: 10px 0;
-  text-align: left;
-  width: 100%;
-}
-
 div.container {
   max-width: 700px;
   width: 100%;
@@ -58,57 +47,14 @@ div.container-large {
   box-shadow: var(--box-shadow);
 }
 
-h1 { font-size: 26px; }
-h2 { font-size: 24px; }
-h3 { font-size: 22px; }
-h4 { font-size: 20px; }
-h5 { font-size: 18px; }
-h6 { font-size: 16px; }
-
 section {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px 2%;
-
 }
+/* -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~ */
 
-input, textarea {
-  margin: 5px 0;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #dedede;
-  width: 100%;
-  outline: none;
-}
-
-input:focus, textarea:focus {
-  border: 1px solid #9c9c9c;
-}
-
-textarea {
-  resize: vertical;
-}
-
-label, p {
-  font-size: 16px;
-  padding: 5px 0;
-}
-
-button {
-  padding: 8px;
-  background: var(--primary);
-  color: var(--inverse);
-  border: 0;
-  border-radius: 5px;
-  margin: 5px;
-  cursor: pointer;
-}
-
-a {
-  color: var(--primary);
-  padding: 5px;
-}
-
+/* Navbar */
 nav {
   width: 100%;
   display: flex;
@@ -143,14 +89,84 @@ nav img {
   width: auto;
   object-fit: cover;
 }
+/* -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~ */
 
-/* Table design */
+/* breadcrumb */
+.breadcrumb {
+  background-color: #00806a;
+  padding: 10px;
+  color: white;
+}
 
+.breadcrumb a {
+  text-decoration: underline;
+  color: white;
+}
+
+.breadcrumb .active {
+  text-decoration: none;
+}
+/* -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~ */
+
+/* Titles */
+h1, h2 {
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+
+h3, h4, h5, h6 {
+  padding: 10px 0;
+  text-align: left;
+  width: 100%;
+}
+
+h1 { font-size: 26px; }
+h2 { font-size: 24px; }
+h3 { font-size: 22px; }
+h4 { font-size: 20px; }
+h5 { font-size: 18px; }
+h6 { font-size: 16px; }
+/* -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~ */
+
+/* Form */
+input, textarea,select {
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  width: 100%;
+  outline: none;
+}
+
+select > option {
+  color: #00806a;
+  font-size: 1.1rem;
+}
+
+datalist > option {
+  color: #00806a;
+  font-size: 1.1rem;
+}
+
+form > label {
+  display: block;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid #9c9c9c;
+}
+
+textarea {
+  resize: vertical;
+}
+/* -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~ */
+
+/* Tables */
 table {
   border-collapse: collapse;
   width: 100%;
   overflow-x: auto;
-
 }
 
 table td, table th {
@@ -180,7 +196,6 @@ td img {
   object-fit: cover;
 }
 
-
 td > button {
   display: inline-block;  
 }
@@ -196,7 +211,59 @@ td a {
   margin: 5px;
   cursor: pointer;
 }
+/* -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~ */
 
+/* Video CSS */
+video {
+  width: 100%;
+}
+/* -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~ */
+
+/* Figure CSS */
+figure {
+  width: 100%;
+}
+
+figure img {
+  width: 100%;
+}
+/* -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~ */
+
+/* Footer */
+footer {
+  margin: 10px auto;
+  margin-bottom: 0;
+  background-color: var(--primary);
+  padding: 20px 2%;
+}
+
+footer p {
+  color: var(--inverse);
+  text-align: center;
+}
+/* -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~ */
+
+/* Tags */
+label, p {
+  font-size: 16px;
+  padding: 5px 0;
+  padding-bottom: 2px;
+}
+
+a {
+  color: var(--primary);
+  padding: 5px;
+}
+
+button {
+  padding: 8px;
+  background: var(--primary);
+  color: var(--inverse);
+  border: 0;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
 
 button a {
   text-decoration: none;
@@ -213,27 +280,40 @@ strong {
   font-weight: 700;
 }
 
-
-
-/*Coloração de foregrond*/
-
-.red {
-  color: var(--red);
+details {
+  padding: 20px;
+  background-color: #009980;
+  transition: 0.5s;
+  cursor: pointer;
+  border-bottom: 1px solid white;
 }
 
-.orange {
-  color: var(--orange);
+details > summary {
+  color: white;
+  cursor: pointer;
+
+}
+details > p {
+  color: white;
+  padding: 10px 0;
 }
 
-.blue {
-  color: var(--blue);
+details[open] summary ~ * {
+  animation: opacity 0.2s ease-in;
 }
 
-.green {
-  color: var(--green);
+@keyframes opacity {
+  0%    {opacity: 0;}
+  100%  {opacity: 1;}
 }
+/* -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~ */
 
-/* Coloração de background */
+/* Colors */
+.red { color: var(--red); }
+.orange { color: var(--orange);}
+.blue { color: var(--blue); }
+.green { color: var(--green); }
+
 td .red, button.red {
   background-color: var(--red);
   color: var(--inverse);
@@ -253,17 +333,4 @@ td .green, button.green {
   background-color: var(--green);
   color: var(--inverse);
 }
-
-
-/* Footer */
-footer {
-  margin: 10px auto;
-  margin-bottom: 0;
-  background-color: var(--primary);
-  padding: 20px 2%;
-}
-
-footer p {
-  color: var(--inverse);
-  text-align: center;
-}
+/* Colors */
