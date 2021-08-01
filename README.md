@@ -50,6 +50,22 @@ Adicione o arquivo relive.css no seu projeto e use os componentes abaixo:
   </div>
 </section>
 ```
+
+-----------------------------------------------
+
+
+### paragraph to errors
+![paragraph error](images/mensagem.png)
+```html
+  <section>
+    <div class="container">
+      <p class="red">Erro 1 - Mensagem de erro</p>
+      <p class="blue">Erro 1 - Mensagem de erro</p>
+      <p class="orange">Erro 1 - Mensagem de erro</p>
+      <p class="green">Erro 1 - Mensagem de erro</p>
+    </div>
+  </section>
+  ```
 -----------------------------------------------
 
 ### formulary
