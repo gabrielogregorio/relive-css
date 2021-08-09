@@ -319,7 +319,7 @@ To include the mini framework in your project, you need to include the relieve.c
         <td>lisa@google.com</td>
         <td>
           <button class="blue">View</button>
-          <a class="green">View 2</button>
+          <a class="green">View 2</a>
         </td>
       </tr>
 
